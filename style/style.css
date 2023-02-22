@@ -73,7 +73,7 @@ a:active {text-decoration: underline;}
 }
 
 .typesearch::placeholder {
-    background-image: url("/images/search.png");
+    background-image: url("images/search.png");
 }
 
 .submitcenter {
