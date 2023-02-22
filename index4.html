@@ -1,0 +1,109 @@
+<!-- google advanced IMAGE search -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Image Search</title>
+        <link rel="stylesheet" href="/style/style4.css">
+    </head>
+    <body>
+        <!-- top links -->
+        <a class="linkleft" href="index.html">Google</a>
+        <form action="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fclient%3Dsafari&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <input class="signin" type="submit" value="Sign In">
+        </form>
+        <p class="mainlabel">Advanced Image Search</p>
+        <hr/>
+        <!-- middle info -->
+        <div class="main">
+            <p class="findpages">Find pages with...</p>
+            <p class="todothis">To do this in the search box</p> 
+            <div class="findpageswith">
+                <form>
+                    <div class="block"><label class="label">all these words: </label><input type="text" class="text"> <div class="example">Type the important words:    <div class="exampletext">winter hoarfrost</div></div></div>
+                    <div class="block"><label class="label">this exact word or phrase: </label><input type="text" class="text"> <div class="example">Put exact words in quotes:   <div class="exampletext">"frost flower"</div></div></div>
+                    <div class="block"><label class="label">any of these words: </label><input type="text" class="text"> <div class="example">Type OR between all the words you want:  <div class="exampletext">trees OR weeds OR grasses</div></div></div>
+                    <div class="block"><label class="label">none of these words: </label><input type="text" class="text"> <div class="example">Put a minus sign just before words you don't want:  <div class="exampletext">-windows</div></div></div>
+                </form>
+            </div>
+            <hr/>
+            <!-- next info -->
+            <p class="findpages">Then narrow your results by...</p>
+            <div class="findpageswith">
+                <form>
+                    <div class="block">
+                        <label class="label">image size: </label>
+                        <select name="imgsize" id="imgsize" class="select">
+                          <option value="any">any size</option></select>
+                          <div class="example">Find images in any size you need.</div></div>
+                    <div class="block">
+                        <label class="label">aspect ratio:</label>
+                        <select name="aspect" id="aspect" class="select">
+                          <option value="any">any aspect ratio</option></select>
+                          <div class="example">Specify the shape of images.</div></div>
+                    <div class="block">
+                        <label class="label">colors in image:</label>
+                            <input type="radio" id="anycolor" name="anycolor" value="anycolor">
+                            <label for="anycolor">any color</label>
+                            <input type="radio" id="fullcolor" name="fullcolor" value="fullcolor">
+                            <label for="fullcolor">full color</label>
+                            <input type="radio" id="black&white" name="black&white" value="black&white">
+                            <label for="black&white">black & white</label>
+                            <input type="radio" id="transparent" name="transparent" value="transparent">
+                            <label for="transparent">transparent</label>
+                            <input type="radio" id="thiscolor" name="thiscolor" value="thiscolor">
+                            <label for="thiscolor">this color:</label>
+                           <div class="example">Find images in your preferred colors.</div></div>
+                    <div class="block">
+                        <label class="label">type of image:</label>
+                        <select name="type" id="type" class="select">
+                            <option value="any">any type</option></select>
+                            <div class="example">Limit the kind of images you find.</div></div>
+                    <div class="block">
+                        <label class="label">region:</label>
+                        <select name="region" id="region" class="select">
+                            <option value="any">any region</option></select>
+                            <div class="example">Find images published in a particular region.</div></div>
+                    <div class="block"><label class="label">site or domain: </label><input type="text" class="text"> <div class="example">Find pages updated within the time you specify.</div></div>
+                    <div class="block">
+                        <label class="label">terms appearing: </label>
+                        <select name="terms" id="terms" class="select">
+                            <option value="any">anywhere on the page</option></select>
+                            <div class="example">Search one site (like wikipedia.org) or limit your results to a domain like .edu, .org or .gov<div class="exampletext"></div></div></div>
+                    <div class="block">
+                        <label class="label"><a href="https://support.google.com/websearch/answer/510?hl=en&visit_id=637907377039408542-2154588021&p=adv_safesearch&rd=1">SafeSearch:</a></label>
+                        <select name="safe" id="safe" class="select">
+                            <option value="any">Show explicit results</option></select>
+                            <div class="example">Tell <a href="https://support.google.com/websearch/answer/510?hl=en&visit_id=637907377039408542-2154588021&p=adv_safesearch&rd=1">SafeSearch</a> whether to filter sexually explicit content.</div></div>
+                    <div class="block">
+                        <label class="label">file type: </label>
+                        <select name="file" id="file" class="select">
+                            <option value="any">any format</option></select>
+                            <div class="example">Find images in the format you prefer.</div></div>
+                    <div class="block">
+                        <label class="label"><a href="https://support.google.com/websearch/answer/29508?hl=en&visit_id=637907374241318814-360188462&p=ws_images_usagerights&rd=1">usage rights:</a></label>
+                        <select name="usage" id="usage" class="select">
+                            <option value="any">not filtered by license</option></select>
+                            <div class="example">Find images you are free to use yourself.</div></div>
+                </form>
+                <form action="https://www.google.com/search">
+                    <input class="submitsearch" type="submit" value="Advanced Search" name="q">
+                </form>
+            </div>
+            <hr/>
+            <!-- last info -->
+            <p class="findpages">You can also...</p>
+            <div class="youcan">
+                <a class="youcan" href="https://support.google.com/websearch/answer/2466433?visit_id=637907374241318814-360188462&p=adv_pages_similar&hl=en&rd=1">Find pages that are similar to a URL</a>
+                <a class="youcan" href="https://support.google.com/websearch/answer/54068?hl=en&visit_id=637907374241318814-360188462&p=adv_pages_visited&rd=1">Search pages you've visited</a>
+                <a class="youcan" href="https://support.google.com/websearch/answer/2466433?visit_id=637907374241318814-360188462&p=adv_operators&hl=en&rd=1">Use operators in the search box</a>
+                <a class="youcan" href="https://www.google.com/preferences?hl=en">Customize your search settings</a>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+            <a class="bottomleft" href="https://support.google.com/websearch/?visit_id=637907429082545277-1416319226&hl=en&rd=2#topic=3378866">Help</a>
+            <a class="bottomleft" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a class="bottomleft" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+        </div>
+    </body>
+</html>

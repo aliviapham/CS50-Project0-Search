@@ -1,0 +1,16 @@
+things to fix:
+
+all...
+- top banner consistency
+
+
+google...
+- img for search bar (2)
+- bottom banner spacing
+
+
+images...
+- img for search bar (3)
+- "images"
+- setting button hover
+

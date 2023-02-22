@@ -1,0 +1,144 @@
+/* INDEX.HTML */
+
+/* all */
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+
+/* top */
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+    font: 14px sans-serif;
+}
+
+.linkLeftContainer, .linkRightContainer {
+    display: flex;
+    align-items: center;
+}
+
+.linkleft, .linkright, .signin {
+    margin: 12px;
+    color: #2b2b2b;
+}
+
+.linkleft, .linkright, .signin {
+    margin: 12px;
+    color: #2b2b2b;
+}
+
+.signin {
+    position: relative;
+    padding: 10px 25px 10px;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 4px;
+    background-color: #2a74eb;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.signin:hover {
+    background-color: #0f50b7;
+    text-decoration: none;
+}
+
+/* middle */
+.middleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.google {
+    margin-bottom: 25px;
+    font: 500 85px sans-serif;
+}
+
+.typesearch {
+    width: 550px;
+    border-radius: 22px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    padding: 10px;
+    font: 16px sans-serif;
+    color: #2b2b2b;
+}
+
+.typesearch::placeholder {
+    background-image: url("/images/search.png");
+}
+
+.submitcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.submitsearch {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    border: 1.5px transparent solid;
+    color: white;
+    padding: 10px 15px 10px;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #404040;
+}
+
+.submitsearch:hover {
+    border: 1.5px #d4d4d4 solid;
+    transition-duration: 0.1s;
+}
+
+/* bottom */
+.bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    background-color: #ededed;
+    width: 100%;
+    margin-left: -7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font: 14px sans-serif;
+}
+
+.bottomleft, .bottommiddle, .bottomright, .bottomrightbutton {
+    margin: 15px;
+    color: #525252;
+}
+
+.bottommiddle::before {
+    content: " ";
+    display: inline-block;
+    background: url("/images/leaf.png") no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.bottomrightbutton {
+    margin: 0 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: -8px;
+    font: 14px sans-serif;
+    color: #525252;
+}
+
+.bottomrightbutton:hover {
+    text-decoration: underline;
+}
