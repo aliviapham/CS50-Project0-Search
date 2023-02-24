@@ -1,16 +1,28 @@
 things to fix:
 
 all...
-- top banner consistency
 
 
 google...
 - img for search bar (2)
 - bottom banner spacing
+- im feeling lucky
 
 
 images...
 - img for search bar (3)
 - "images"
-- setting button hover
+- im feeling lucky
 
+
+google adv...
+- spacing
+- extra options css + images
+- width for to
+- arrows for drop downs
+- make right column disappear
+- search button at end
+
+images adv...
+- spacing
+- "extra options" + css + images
