@@ -3,6 +3,7 @@
 <html lang="en">
     <head>
         <title>Google</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
         <link rel="stylesheet" href="style/style2.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +18,12 @@
         <!-- middle search -->
         <div class="middleContainer">
             <img src="./images/googleimageslogo.PNG" alt="Google Images" class="google">
-            <form action="https://images.google.com">
+            <form action="https://images.google.com/search" method="get">
                 <input class="typesearch" type="text" name="q">
+                <input type="hidden" name="tbm" value="isch"/>
+                <div class="submitcenter">
+                    <input class="submitsearch" type="submit" value="Google Search">
+                </div>
             </form>
         </div>
         <!-- bottom links -->

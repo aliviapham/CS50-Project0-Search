@@ -3,20 +3,20 @@ things i know are a bit off but i have decided to move on from this project beca
 
 google...
 - search bar: missing icons ):
-- "carbon neutral since 2007" spacing is a little off (not responsive correctly)
+- "carbon neutral since 2007" spacing is a little off ):
 
 
 images...
 - search bar: missing icons ):
-- search bar is not the same size as google search bar ):
 
 
 google adv...
-- select menu: missing icon ):
+- select menus: missing icon ):
 - "numbers ranging from" text boxes do not fill the full size of the other text boxes ):
 
 
 images adv...
-- select menu: missing icon ):
+- first section does not work properly ):
+- select menus: missing icon ):
 - "colors in image" radio buttons: can select multiple ):
 - "this color:" image is not vertically centered ):
