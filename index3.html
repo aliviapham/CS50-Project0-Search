@@ -4,6 +4,8 @@
     <head>
         <title>Google Advanced Search</title>
         <link rel="stylesheet" href="style/style3.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <!-- top links -->
@@ -27,17 +29,23 @@
                 <p></p>
                 <p class="todothis">To do this in the search box</p>
             </div>
-            <form>
+            <form action="https://www.google.com/search" method="get">
                 <div class="middlesecond">
-                    <div class="block"><label class="label">all these words: </label><input type="text" class="text"> <div class="example">Type the important words: <div class="exampletext">tricolor rat terrier</div></div></div>
-                    <div class="block"><label class="label">this exact word or phrase: </label><input type="text" class="text"> <div class="example">Put exact words in quotes: <div class="exampletext">"rat terrier"</div></div></div>
-                    <div class="block"><label class="label">any of these words: </label><input type="text" class="text"> <div class="example">Type OR between all the words you want: <div class="exampletext">miniature OR standard</div></div></div>
-                    <div class="block"><label class="label">none of these words: </label><input type="text" class="text"> <div class="example">Put a minus sign just before words you don't want: <div class="exampletext">-rodent, -"Jack Russell"</div></div></div>
-                    <div class="block"><label class="label">numbers ranging from: </label><div class="text2">
-                        <input type="text" class="specialtext">
-                        <label class="label2">to</label>
-                        <input type="text" class="specialtext"></div> 
+                    <div class="block"><label class="label">all these words: </label><input type="text" class="text" name="as_q"> <div class="example">Type the important words: <div class="exampletext">tricolor rat terrier</div></div></div>
+                    <div class="block"><label class="label">this exact word or phrase: </label><input type="text" class="text" name="as_epq"> <div class="example">Put exact words in quotes: <div class="exampletext">"rat terrier"</div></div></div>
+                    <div class="block"><label class="label">any of these words: </label><input type="text" class="text" name="as_oq"> <div class="example">Type OR between all the words you want: <div class="exampletext">miniature OR standard</div></div></div>
+                    <div class="block"><label class="label">none of these words: </label><input type="text" class="text" name="as_eq"> <div class="example">Put a minus sign just before words you don't want: <div class="exampletext">-rodent, -"Jack Russell"</div></div></div>
+                    <div class="block"><label class="label">numbers ranging from: </label>
+                        <div class="text2">
+                            <input type="text" class="specialtext" name="as_nlo">
+                            <label class="label2">to</label>
+                            <input type="text" class="specialtext" name="as_nhi"></div> 
                         <div class="specialexample">Put 2 periods between the numbers and add a unit of measure: <div class="exampletext">10..35 lb, $300..$500, 2010..2011</div></div></div>
+                </div>
+                <div class="middlecontainer3">
+                    <p></p>
+                        <input class="submitsearch" type="submit" value="Advanced Search">
+                    <p></p>
                 </div>
             </form>
         </div>
@@ -98,12 +106,15 @@
         <!-- middle button -->
         <div class="middlecontainer3">
             <p></p>
-            <form action="https://www.google.com/search">
-                <input class="submitsearch" type="submit" value="Advanced Search" name="q">
-            </form>
+            <button class="submitsearch" onclick="myFunction()">Advanced Search</button>
+            <script>
+            function myFunction() {alert("This button doesn't work. This section of this page is not functional. Sorry!");}
+            </script>
             <p></p>
         </div>
         <hr/>
+
+
         <!-- middle you can also -->
         <p class="middlelabel">You can also...</p>
         <div class="middlelinks">
