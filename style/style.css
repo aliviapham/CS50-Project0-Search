@@ -53,8 +53,8 @@ a:active {text-decoration: underline;}
 }
 
 .google {
-    margin-bottom: 25px;
-    font: 500 85px sans-serif;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 .typesearch {
@@ -65,10 +65,6 @@ a:active {text-decoration: underline;}
     padding: 10px;
     font: 16px sans-serif;
     color: #2b2b2b;
-}
-
-.typesearch::placeholder {
-    background-image: url("images/search.png");
 }
 
 .submitcenter {
@@ -110,8 +106,12 @@ a:active {text-decoration: underline;}
 }
 
 .bottomleft, .bottommiddle, .bottomright, .bottomrightbutton {
-    margin: 15px;
+    margin-left: 15px;
     color: #525252;
+}
+
+.bottomMiddleContainer {
+    margin-left: -75px;
 }
 
 .bottommiddle::before {
