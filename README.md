@@ -1,8 +1,8 @@
-##EDX's CS50's Web Programming with Javascript and Python  
+## EDX's CS50's Web Programming with Javascript and Python  
 
-###Project 0: Search  
+### Project 0: Search  
 
-  
+---  
 
 This was my first adventure back into web development!
 
@@ -12,7 +12,7 @@ HTML, CSS, Javascript
 
 Note: While I'm calling this "finished", there are a few things I'm not happy with still. Maybe one day I'll come back. Also -- Not optimized for mobile </3  
 
-  
+---  
 
 Course: https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home  
 
