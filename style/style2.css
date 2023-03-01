@@ -54,15 +54,11 @@ a:active {text-decoration: underline;}
 }
 
 .typesearch {
-    width: 550px;
+    width: 518px;
     border-radius: 22px;
     border: 1px solid #e6e6e6;
     background-color: white;
-    padding: 10px;
-    background-image: url("images/search.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px;
+    padding: 12px 10px 12px 20px;
     font: 16px sans-serif;
     color: #2b2b2b;
 }
@@ -70,6 +66,25 @@ a:active {text-decoration: underline;}
 .submitcenter {
     display: flex;
     justify-content: center;
+}
+
+.submitsearch {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    border: 1.5px transparent solid;
+    color: white;
+    padding: 10px 15px 10px;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #404040;
+}
+
+.submitsearch:hover {
+    border: 1.5px #d4d4d4 solid;
+    transition-duration: 0.1s;
 }
 
 /* bottom */
